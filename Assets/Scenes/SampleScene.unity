@@ -478,7 +478,7 @@ Transform:
   m_GameObject: {fileID: 547869584}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.02, y: 1.32, z: -11.03}
+  m_LocalPosition: {x: 0.32, y: 1.83, z: -7.11}
   m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1068,6 +1068,7 @@ GameObject:
   - component: {fileID: 1644066952}
   - component: {fileID: 1644066951}
   - component: {fileID: 1644066950}
+  - component: {fileID: 1644066953}
   m_Layer: 0
   m_Name: EntranceTrigger
   m_TagString: Untagged
@@ -1088,6 +1089,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _alarmSound: {fileID: 1455352573}
+  _alarmTrigger: {fileID: 1644066953}
 --- !u!65 &1644066951
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1124,6 +1126,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1644066953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644066949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f554a5123fd9e2b4ca3bd0b5836f1d3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1726780367
 GameObject:
   m_ObjectHideFlags: 0
